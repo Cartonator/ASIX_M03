@@ -23,6 +23,8 @@ public class ASIX_M03 {
                 
         System.out.println("resultado " + resultado);
         
+        n1 = 8;
+        n2 = 11;
         
     }
     
