@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package asix_m03;
-
+import java.util.Scanner;
 /**
  *
  * @author Eric
@@ -23,9 +23,21 @@ public class ASIX_M03 {
                 
         System.out.println("resultado " + resultado);
         
-        n1 = 8;
-        n2 = 11;
-        
+       
+      
+      Scanner teclado = new Scanner(System.in);
+     
+      System.out.println("introduce el primer numero");
+      n1 = teclado.nextInt();
+      System.out.println("introduce el segundo numero");
+      n2 = teclado.nextInt();
+      resultado = n1 + n2;
+      System.out.println("el resultado es:" + resultado);
+      if (n1 + n2 == resultado) 
+          System.out.println("correcte");
+      else {
+          System.out.println("error");
+      }        
     }
     
 }
